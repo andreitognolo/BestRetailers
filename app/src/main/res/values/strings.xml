@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Best Retailers</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search_product">Search Product</string>
+    <string name="action_store_locator">Store Locator</string>
+    <string name="action_wish_list">My Wish List</string>
+
+    <string name="description_hint">Insert product name</string>
+    <string name="search_button">Search</string>
+
+    <string name="price_txt">Regular Price</string>
+    <string name="title_activity_products">Products</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="no_location_detected">
+        No location detected. Make sure location is enabled on the device.
+    </string>
+
+    <!--Preference Strings-->
+    <string name="pref_country_label">Country</string>
+    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_country_key" translatable="false">country</string>
+    <string name="pref_country_default" translatable="false">US</string>
+    <string name="pref_region_label">Region</string>
+    <string name="pref_region_default" translatable="false">NY</string>
+    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_region_key" translatable="false">region</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">bestretailers.com</string>
+    <string name="content_authority">com.bestretailers</string>
+
+    <!-- Strings related to preferences for sync updates -->
+    <string name="pref_last_store_update">last_store_update</string>
+
+
+</resources>
